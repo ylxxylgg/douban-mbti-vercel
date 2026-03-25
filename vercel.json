@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "",
+  "installCommand": "npm install",
+  "framework": null,
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.js" }
+  ],
+  "regions": ["hkg1"],
+  "functions": {
+    "api/index.js": {
+      "runtime": "nodejs18.x",
+      "memorySize": 256,
+      "maxDuration": 30
+    }
+  }
+}
