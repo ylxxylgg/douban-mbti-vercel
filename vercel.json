@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "buildCommand": "",
-  "installCommand": "npm install",
-  "framework": null,
-  "outputDirectory": "public",
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" }
-  ],
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 30
-    }
-  }
+  "outputDirectory": "public"
 }
